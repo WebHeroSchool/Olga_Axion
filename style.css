@@ -293,7 +293,7 @@ body {
 }
 .video {
   background-color: #000;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   display: flex;
   align-items: center;
 }
@@ -302,17 +302,13 @@ body {
   position: relative;
 }
 .video-left {
-  border: dashed 1px red;
   width: 650px;
   height: 360px;
   background: top left no-repeat url(img/picture.png);
-  margin-top: 75px;
-  margin-left: 41px;
-  margin-right: 50px;
-  margin-bottom: 74px;
+  margin: 68px 36px 74px 33px;
 }
 .video__circle-transparent {
-  text-align:center;
+  text-align: center;
   vertical-align: middle;
   width: 55px;
   height: 55px;
@@ -320,8 +316,8 @@ body {
   background: #fff;
   opacity: 0.3;
   position: absolute;
-  top: 44%;
-  left: 47%;
+  top: 42.7%;
+  left: 45.3%;
 }
 .video__circle-white {
   text-align:center;
@@ -331,9 +327,8 @@ body {
   border-radius: 50%;
   background-color: #fff;
   position: absolute;
-  top: 45%;
-  left: 48%;
-  z-index: 1;
+  top: 44%;
+  left: 46%;
 }
 .video__circle_triangle {
   position: absolute;
@@ -342,9 +337,9 @@ body {
 }
 .video__title {
   width: 265px;
-  height: 55px;
+  height: 52px;
   margin-top: 0;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   font: bold 22px/27px Gotham Pro, arial, helvetica, sans-serif;
   display: inline-block;
   align-items: center;
@@ -405,7 +400,7 @@ body {
   transform: rotate(-45deg);
 }
 .video__link:hover {
-  animation: shop__link 1s linear infinite;
+  animation: video__link 1s linear infinite;
 }
   @keyframes video__link {
       0% {
@@ -418,22 +413,218 @@ body {
           left:0px;
       }
 }
-.product__title {
+.stories__title {
   margin-top: 0;
   font: bold 22px/21px Gotham Pro, arial, helvetica, sans-serif;
   margin-bottom: 40px;
+  text-align: center;
 }
 .stories-justin {
+  background:  top left no-repeat url(img/stories1.png);
   display:inline-block;
   width: 306px;
+}
+.stories-justin__title {
+  padding-top: 60%;
+  margin: 0;
+  font: bold 18px/17px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+.stories-justin__text {
+  margin: 0;
+  font: bold 14px/17px Gotham Pro, arial, helvetica, sans-serif;
+}
+.stories-justin__button {
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  display:inline-block;
+}
+.stories-justin__link {
+  transform: translateY(-350%);
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 1px;
+  background-color: #000;
+}
+.stories-justin__link::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 1px;
+  top: -1px;
+  right: -1px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+.stories-justin__link::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 1px;
+  top: 1px;
+  right: -1px;
+  background-color: #000;
+  transform: rotate(-45deg);
+}
+.stories-justin__link:hover {
+  animation: stories-justin__link 1s linear infinite;
+}
+  @keyframes stories-justin__link {
+      0% {
+          left:0px;
+      }
+      50% {
+          left:10px;
+      }
+      100% {
+          left:0px;
+      }
+}
+.stories-justin__date {
+  margin: 0;
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  opacity: 0.3;
+  color: #000;
 }
 .stories-first {
+  background:  top left no-repeat url(img/stories2.png);
   display:inline-block;
   width: 306px;
 }
+.stories-first__title {
+  padding-top: 60%;
+  margin: 0;
+  font: bold 18px/17px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+.stories-first__text {
+  margin: 0;
+  font: bold 14px/17px Gotham Pro, arial, helvetica, sans-serif;
+}
+.stories-first__button {
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  display:inline-block;
+}
+.sstories-first__link {
+  transform: translateY(-350%);
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 1px;
+  background-color: #000;
+}
+.stories-first__link::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 1px;
+  top: -1px;
+  right: -1px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+.stories-first__link::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 1px;
+  top: 1px;
+  right: -1px;
+  background-color: #000;
+  transform: rotate(-45deg);
+}
+.stories-first__link:hover {
+  animation: stories-first__link 1s linear infinite;
+}
+  @keyframes stories-first__link {
+      0% {
+          left:0px;
+      }
+      50% {
+          left:10px;
+      }
+      100% {
+          left:0px;
+      }
+}
+.stories-first__date {
+  margin: 0;
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  opacity: 0.3;
+  color: #000;
+}
 .stories-kevin {
+  background:  top left no-repeat url(img/stories3.png);
   display:inline-block;
   width: 306px;
+}
+.stories-kevin__title {
+  padding-top: 60%;
+  margin: 0;
+  font: bold 18px/17px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+.stories-kevin__text {
+  margin: 0;
+  font: bold 14px/17px Gotham Pro, arial, helvetica, sans-serif;
+}
+.stories-kevin__button {
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  display:inline-block;
+}
+.sstories-kevin__link {
+  transform: translateY(-350%);
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 1px;
+  background-color: #000;
+}
+.stories-kevin__link::after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 1px;
+  top: -1px;
+  right: -1px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+.stories-kevin__link::before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 1px;
+  top: 1px;
+  right: -1px;
+  background-color: #000;
+  transform: rotate(-45deg);
+}
+.stories-kevin__link:hover {
+  animation: stories-kevin__link 1s linear infinite;
+}
+  @keyframes stories-kevin__link {
+      0% {
+          left:0px;
+      }
+      50% {
+          left:10px;
+      }
+      100% {
+          left:0px;
+      }
+}
+.stories-kevin__date {
+  margin: 0;
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  opacity: 0.3;
+  color: #000;
 }
 .foto {
   width: 100%;
@@ -441,4 +632,10 @@ body {
 }
 .foto__bw {
   width: 146px;
+}
+.title {
+  margin: 0;
+  font: bold 18px/17px Gotham Pro, arial, helvetica, sans-serif;
+  opacity: 0.3;
+  color: #000;
 }
