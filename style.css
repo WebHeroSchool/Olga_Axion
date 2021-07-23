@@ -653,19 +653,29 @@ body {
 .foto {
   width: 100%;
   display:inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 77px;
 }
 .foto__bw {
   width: 146.9px;
 }
 .footer {
   background-color: #000;
-  display: flex;
-  align-items: center;
+  margin-bottom: 50px;
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
-  display:inline-block;
-  width: 100px;
+  display: inline-block;
+  width: 130px;
+  margin-top: 68px;
+}
+.footer-myaccount {
+  margin-left: 200px;
+  margin-right: 70px;
+}
+.footer-customerservice {
+  margin-right: 70px;
+}
+.footer-miscellaneous {
+  margin-right: 0px;
 }
 .footer-myaccount__title, .footer-customerservice__title, .footer-miscellaneous__title, .footer-singup__title {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -678,24 +688,31 @@ body {
   margin: 0;
   color: #fff;
   text-decoration: none;
-  margin-bottom: 6px;
+  margin-bottom:7px;
+  display: block;
 }
 .footer-singup {
   width: 200px;
 }
 .footer-singup__link {
-color: #fff;
-text-align:center;
-vertical-align: middle;
-width: 137px;
-height: 30px;
-border: dashed 1px #fff;
-text-decoration: none;
-display: block;
-align-items: center;
+  color: #fff;
+  text-align:center;
+  vertical-align: middle;
+  width: 137px;
+  height: 30px;
+  border: dashed 1px #fff;
+  text-decoration: none;
+  display: block;
+  align-items: center;
 }
 .footer-singup__facebook {
-  background: no-repeat url('img/facebook.png');
   width: 8px;
   height: 16px;
+}
+.footer__text {
+  display: block;
+  align-items: center;
+  margin: 0;
+  color: #fff;
+  border: dashed
 }
