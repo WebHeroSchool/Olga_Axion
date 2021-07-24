@@ -321,7 +321,7 @@ body {
   left: 45.3%;
 }
 .video__circle-white {
-  text-align:center;
+  text-align: center;
   vertical-align: middle;
   width: 47px;
   height: 47px;
@@ -331,10 +331,13 @@ body {
   top: 44%;
   left: 46%;
 }
-.video__circle_triangle {
+.video__circle-white::before {
+  content: '';
   position: absolute;
   border: 6px solid transparent;
   border-left: 9px solid rgba(0, 0, 0, 0.5);
+  top: 17px;
+  left: 22px;
 }
 .video__title {
   width: 265px;
@@ -345,7 +348,6 @@ body {
   display: inline-block;
   align-items: center;
   text-align: justify;
-  text-transform: uppercase;
   color: #fff;
 }
 .video__text {
@@ -358,7 +360,6 @@ body {
   display: flex;
   align-items: center;
   text-align: justify;
-  text-transform: uppercase;
   color: #fff;
 }
 .video__button {
@@ -435,7 +436,7 @@ body {
 .stories-justin__text {
   margin: 0;
   margin-bottom: 11px;
-  font: bold 14px/17px Gotham Pro, arial, helvetica, sans-serif;
+  font: 14px/17px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories-justin__button {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -509,7 +510,7 @@ body {
 .stories-first__text {
   margin: 0;
   margin-bottom: 14px;
-  font: bold 14px/17px Gotham Pro, arial, helvetica, sans-serif;
+  font: 14px/17px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories-first__button {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -583,7 +584,7 @@ body {
 .stories-kevin__text {
   margin: 0;
   margin-bottom: 14px;
-  font: bold 14px/17px Gotham Pro, arial, helvetica, sans-serif;
+  font:  14px/17px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories-kevin__button {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
