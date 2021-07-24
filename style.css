@@ -660,22 +660,20 @@ body {
 }
 .footer {
   background-color: #000;
-  margin-bottom: 50px;
+}
+.footer__menu {
+  display: flex;
+  justify-content: center;
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
   display: inline-block;
-  width: 130px;
-  margin-top: 68px;
+  width: 180px;
+  margin-top: 66px;
+  margin-bottom: 48px;
+  margin-right: 16px;
 }
 .footer-myaccount {
   margin-left: 200px;
-  margin-right: 70px;
-}
-.footer-customerservice {
-  margin-right: 70px;
-}
-.footer-miscellaneous {
-  margin-right: 0px;
 }
 .footer-myaccount__title, .footer-customerservice__title, .footer-miscellaneous__title, .footer-singup__title {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -688,11 +686,12 @@ body {
   margin: 0;
   color: #fff;
   text-decoration: none;
-  margin-bottom:7px;
+  margin-bottom:8px;
   display: block;
 }
-.footer-singup {
-  width: 200px;
+.footer-singup__text{
+  margin: 0;
+  margin-bottom: 11px;
 }
 .footer-singup__link {
   color: #fff;
@@ -704,15 +703,18 @@ body {
   text-decoration: none;
   display: block;
   align-items: center;
+  margin-bottom: 20px;
+  font: 10px/10px Gotham Pro, arial, helvetica, sans-serif;
 }
-.footer-singup__facebook {
-  width: 8px;
-  height: 16px;
+.footer-singup__facebook, .footer-singup__twitter, .footer-singup__instagram, .footer-singup__pinterest {
+  margin-right: px;
+  display: inline-block;
 }
 .footer__text {
   display: block;
-  align-items: center;
+ text-align: center;
   margin: 0;
   color: #fff;
-  border: dashed
+  font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  padding-bottom: 30px;
 }
