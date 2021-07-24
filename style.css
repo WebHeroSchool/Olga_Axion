@@ -663,14 +663,13 @@ body {
 }
 .footer__menu {
   display: flex;
-  justify-content: center;
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
   display: inline-block;
   width: 180px;
   margin-top: 66px;
   margin-bottom: 48px;
-  margin-right: 16px;
+  margin-right: 20px;
 }
 .footer-myaccount {
   margin-left: 200px;
@@ -695,26 +694,26 @@ body {
 }
 .footer-singup__link {
   color: #fff;
-  text-align:center;
+  /*text-align:center;*/
+  padding: 8px 5px;
   vertical-align: middle;
-  width: 137px;
-  height: 30px;
-  border: dashed 1px #fff;
+  /*width: 137px;
+  height: 28px;*/
+  border: solid 2px #fff;
   text-decoration: none;
   display: block;
-  align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 32px;
   font: 10px/10px Gotham Pro, arial, helvetica, sans-serif;
 }
-.footer-singup__facebook, .footer-singup__twitter, .footer-singup__instagram, .footer-singup__pinterest {
-  margin-right: px;
-  display: inline-block;
+.footer-singup__icon {
+display: flex;
+justify-content: space-between;
 }
 .footer__text {
   display: block;
- text-align: center;
   margin: 0;
   color: #fff;
   font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
   padding-bottom: 30px;
+  text-align: center;
 }
