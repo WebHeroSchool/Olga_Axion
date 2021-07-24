@@ -127,7 +127,7 @@ body {
   height: 12px;
   text-decoration: none;
   display: inline-block;
-  margin-right: 2px;
+  margin-right: 3px;
 }
 .shop__link {
   transform: translateY(-350%);
@@ -339,27 +339,19 @@ body {
   top: 17px;
   left: 22px;
 }
+.video-right{
+  width: 270px;
+}
 .video__title {
-  width: 265px;
-  height: 52px;
-  margin-top: 5px;
-  margin-bottom: 16px;
+  margin: 0;
+  margin-bottom: 14px;
   font: bold 22px/27px Gotham Pro, arial, helvetica, sans-serif;
-  display: inline-block;
-  align-items: center;
-  text-align: justify;
   color: #fff;
 }
 .video__text {
-  width: 266px;
-  height: 99px;
-  width: 300px;
-  margin-top: 0;
-  margin-bottom: 10px;
+  margin: 0;
+  margin-bottom: 18px;
   font: 14px/17px Gotham Pro, arial, helvetica, sans-serif;
-  display: flex;
-  align-items: center;
-  text-align: justify;
   color: #fff;
 }
 .video__button {
@@ -371,7 +363,7 @@ body {
   height: 12px;
   text-decoration: none;
   display: inline-block;
-  margin-right: 2px;
+  margin-right: 3px;
 }
 .video__link {
   transform: translateY(-350%);
@@ -650,12 +642,12 @@ body {
   opacity: 0.3;
   color: #000;
   text-align: right;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 .foto {
   width: 100%;
   display:inline-block;
-  margin-bottom: 77px;
+  margin-bottom: 76px;
 }
 .foto__bw {
   width: 146.9px;
