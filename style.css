@@ -53,13 +53,13 @@ body {
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-  padding: 0 18px;
+  margin: 0 18px;
 }
 .menu__item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 .menu__item:first-child{
-  padding-left: 0;
+  margin-left: 0;
 }
 .menu__item:after, .menu__sign:after, .menu__cart:after {
   position: absolute;
@@ -113,10 +113,10 @@ body {
   transition: opacity .5s;
 }
 .menu__sign {
-  padding: 0 35px;
+  margin: 0 35px;
 }
 .menu__cart {
-  padding-right: 3px;
+  margin-right: 3px;
 }
 .ellipse {
   width: 15px;
