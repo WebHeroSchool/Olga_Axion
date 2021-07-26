@@ -8,8 +8,8 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 18px;
-  padding-top: 53px;
+  margin-bottom: 27px;
+  margin-top: 33px;
 }
 .heder__right{
   display: flex;
@@ -20,6 +20,7 @@ body {
   height: 55px;
   background: no-repeat url('img/logo.svg');
   display: inline-block;
+  margin-right: 44px;
 }
 /*.menu__box {
   visibility: hidden;
@@ -43,10 +44,8 @@ body {
   left: 0;
 }*/
 .menu {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: auto;
+  display: flex;
 }
 .menu__item {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -54,7 +53,13 @@ body {
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-  pa
+  padding: 0 18px;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
+.menu__item:first-child{
+  padding-left: 0;
 }
 .menu__item:after, .menu__sign:after, .menu__cart:after {
   position: absolute;
@@ -76,10 +81,11 @@ body {
 }
 .heder__left {
   display: flex;
-
+  justify-content: space-between;
+  align-items: center;
 }
 .search {
-  margin: 48px 33px 24px 0;
+  margin: 0;
   display: inline-flex;
   position: relative;
   width: 178px;
@@ -89,7 +95,7 @@ body {
   border-color: #000;
 }
 .search-field {
-  width: 161px;
+  width: 162px;
   height: 24px;
   outline: none;
   border: none;
@@ -97,37 +103,31 @@ body {
 .search-icon {
   width: 14px;
   height: 14px;
-  margin-top: 6px;
+  padding-top: 5px;
 }
 .menu__sign, .menu__cart {
-  height: 24px;
-  margin-top: 53px;
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
   position: relative;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
-  align-items: center;
 }
 .menu__sign {
-  margin-right: 34px;
-  width: 48px;
+  padding: 0 35px;
 }
 .menu__cart {
-  margin-right: 3px;
-  width: 34px;
+  padding-right: 3px;
 }
 .ellipse {
   width: 15px;
   height: 15px;
-  background: url('img/ellipse.svg');
-  margin: 51px 35px 30px 0;
+  background: no-repeat url('img/ellipse.svg');
+  padding-right: 35px;
 }
 .language {
   width: 20px;
   height: 20px;
-  background: url('img/flag.svg');
-  margin-top: 49px;
+  background: no-repeat url('img/flag.svg');
 }
 .shop {
   width: 100%;
