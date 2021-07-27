@@ -205,6 +205,10 @@ body {
   font: bold 22px/21px Gotham Pro, arial, helvetica, sans-serif;
   text-align: center;
 }
+.products {
+  display: flex;
+  justify-content: space-between;
+}
 .product__foto {
   padding-left: 23px;
   margin-bottom: 23px;
@@ -222,15 +226,15 @@ body {
   display:inline-block;
   width: 220px;
   margin-bottom: 51px;
-  margin-right: 25px;
+  /*margin-right: 25px;*/
 }
-.product-blue {
+/*.product-blue {
   margin-right: 0;
-}
+}*/
 .product-atlas__title, .product-pepper__title, .product-mandel__title, .product-blue__title {
   margin-top: 0;
   margin-bottom: 10px;
-  padding-left: 12px;
+  /*padding-left: 12px;*/
   font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
 }
 .product-atlas__price, .product-pepper__price, .product-mandel__price, .product-blue__price {
@@ -238,7 +242,7 @@ body {
   margin-bottom: 0;
   font: bold 14px/13px Gotham Pro, arial, helvetica, sans-serif;
   display: inline-block;
-  padding-left: 13px;
+  /*padding-left: 13px;*/
 }
 .product__footer {
   display: flex;
@@ -325,13 +329,14 @@ body {
   margin-bottom: 77px;
   display: flex;
   align-items: center;
+  justify-content:space-between;
 }
 .video-left, .video-right{
   display: inline-block;
   position: relative;
 }
 .video-left {
-  width: 645px;
+  width: 70%;
   height: 360px;
   background: no-repeat url(img/picture.png) 50%/cover;
   margin: 68px 40px 67px 33px;
@@ -368,7 +373,8 @@ body {
   left: 22px;
 }
 .video-right{
-  width: 270px;
+  width: 30%;
+  margin-right: 34px;
 }
 .video__title {
   margin: 0;
@@ -440,6 +446,10 @@ body {
   font: bold 22px/21px Gotham Pro, arial, helvetica, sans-serif;
   margin-bottom: 44px;
   text-align: center;
+}
+.stories{
+  display: flex;
+  justify-content:space-between;
 }
 .stories-justin {
   background:   no-repeat url(img/stories1.png) 50%/cover;
@@ -677,10 +687,12 @@ body {
 }
 .foto {
   width: 100%;
-  display:inline-block;
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 76px;
 }
 .foto__bw {
+  display:inline-block;
   width: 147px;
 }
 .footer {
