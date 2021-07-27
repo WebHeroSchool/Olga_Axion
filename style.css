@@ -494,20 +494,6 @@ body {
   background-color: #000;
   transform: rotate(-45deg);
 }
-.stories-justin__link:hover {
-  animation: stories-justin__link 1s linear infinite;
-}
-  @keyframes stories-justin__link {
-      0% {
-          left:0px;
-      }
-      50% {
-          left:10px;
-      }
-      100% {
-          left:0px;
-      }
-}
 .stories-justin__date, .stories-first__date, .stories-kevin__date {
   margin: 0;
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -515,42 +501,15 @@ body {
   color: #000;
   text-align: right;
   display:inline-block;
+  padding-top: 3px;
 }
 .stories-first {
   margin-right: 51px;
   background:  50%/cover no-repeat url(img/stories2.png);
 }
-.stories-first__link:hover {
-  animation: stories-first__link 1s linear infinite;
-}
-  @keyframes stories-first__link {
-      0% {
-          left:0px;
-      }
-      50% {
-          left:10px;
-      }
-      100% {
-          left:0px;
-      }
-}
 .stories-kevin {
   background:  50%/cover no-repeat url(img/stories3.png);
   margin-bottom: 270px;
-}
-.stories-kevin__link:hover {
-  animation: stories-kevin__link 1s linear infinite;
-}
-  @keyframes stories-kevin__link {
-      0% {
-          left:0px;
-      }
-      50% {
-          left:10px;
-      }
-      100% {
-          left:0px;
-      }
 }
 .title {
   margin: 0;
@@ -776,7 +735,7 @@ body {
   margin-bottom: 11px;
 }
 .stories-justin__text, .stories-first__text, .stories-kevin__text {
-  margin-bottom: 20px;
+  margin-bottom: 18px;
   font: 13px/16px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories-justin__link, .stories-first__link, .stories-kevin__link {
