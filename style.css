@@ -453,6 +453,13 @@ body {
   margin-bottom: 9px;
   font: 14px/18px Gotham Pro, arial, helvetica, sans-serif;
 }
+.stories-justin__footer, .stories-first__footer, .stories-kevin__footer {
+  display: flex;
+  justify-content: space-between;
+}
+.stories-justin__footer-container, .stories-first__footer-container, .stories-kevin__footer-container {
+  display: inline-block;
+}
 .stories-justin__button, .stories-first__button, .stories-kevin__button {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
   color: #000;
@@ -462,12 +469,10 @@ body {
 }
 .stories-justin__link, .stories-first__link, .stories-kevin__link {
   transform: translateY(-350%);
-  position: relative;
-  display: inline-block;
   width: 30px;
   height: 1px;
   background-color: #000;
-  margin-right: 116px;
+  display: inline-block;
 }
 .stories-justin__link::after, .stories-first__link::after, .stories-kevin__link::after {
   content: '';
@@ -533,10 +538,6 @@ body {
   background:  50%/cover no-repeat url(img/stories3.png);
   margin-bottom: 270px;
 }
-.stories-kevin__link {
-  margin-right: 113px;
-}
-
 .stories-kevin__link:hover {
   animation: stories-kevin__link 1s linear infinite;
 }
@@ -727,7 +728,7 @@ body {
 .video-left {
   width: 72%;
   height: 325px;
-  margin: 58px 39px 60px 33px;
+  margin: 59px 39px 60px 31px;
 }
 .video__circle-transparent {
   width: 50px;
@@ -780,13 +781,9 @@ body {
 }
 .stories-justin__link, .stories-first__link, .stories-kevin__link {
   width: 18px;
-  margin-right: 99px;
 }
 .stories-kevin {
   margin-bottom: 280px;
-}
-.stories-kevin__link {
-  margin-right: 97px;
 }
 .foto {
   margin-bottom: 95px;
