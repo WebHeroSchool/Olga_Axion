@@ -18,7 +18,7 @@ body {
 .logo {
   width: 55px;
   height: 55px;
-  background: no-repeat url('img/logo.svg');
+  background: 50%/cover no-repeat url('img/logo.svg');
   display: inline-block;
   margin-right: 44px;
 }
@@ -127,7 +127,7 @@ body {
 .language {
   width: 20px;
   height: 20px;
-  background: no-repeat url('img/flag.svg');
+  background: 50%/cover no-repeat url('img/flag.svg');
 }
 .shop {
   width: 100%;
@@ -331,10 +331,10 @@ body {
   position: relative;
 }
 .video-left {
-  width: 650px;
+  width: 645px;
   height: 360px;
   background: no-repeat url(img/picture.png) 50%/cover;
-  margin: 68px 36px 67px 33px;
+  margin: 68px 40px 67px 33px;
 }
 .video__circle-transparent {
   text-align: center;
@@ -391,7 +391,7 @@ body {
   height: 12px;
   text-decoration: none;
   display: inline-block;
-  margin-right: 3px;
+  margin-right: 6px;
 }
 .video__link {
   transform: translateY(-350%);
@@ -445,6 +445,7 @@ body {
   background:   no-repeat url(img/stories1.png) 50%/cover;
   display: inline-block;
   width: 306px;
+  height: 147px;
   margin-right: 51px;
 }
 .stories-justin__title {
@@ -519,6 +520,7 @@ body {
   background:  50%/cover no-repeat url(img/stories2.png);
   display:inline-block;
   width: 306px;
+  height: 147px;
   margin-right: 51px;
 }
 .stories-first__title {
@@ -593,7 +595,8 @@ body {
   background:  50%/cover no-repeat url(img/stories3.png);
   display:inline-block;
   width: 306px;
-  margin-bottom: 78px;
+  height: 147px;
+  margin-bottom: 270px;
 }
 .stories-kevin__title {
   padding-top: 58%;
@@ -678,7 +681,7 @@ body {
   margin-bottom: 76px;
 }
 .foto__bw {
-  width: 146.9px;
+  width: 147px;
 }
 .footer {
   background-color: #000;
@@ -690,7 +693,7 @@ body {
   display: inline-block;
   width: 180px;
   margin-top: 68px;
-  margin-bottom: 51px;
+  margin-bottom: 53px;
   margin-right: 20px;
 }
 .footer-myaccount {
@@ -700,7 +703,7 @@ body {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
   margin: 0;
   color: #fff;
-  margin-bottom: 9px;
+  margin-bottom: 10px;
 }
 .footer-myaccount__menu, .footer-customerservice__menu, .footer-miscellaneous__menu, .footer-singup__text {
   font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -723,13 +726,13 @@ body {
   border: solid 2px #fff;
   text-decoration: none;
   display: block;
-  margin-bottom: 36px;
+  margin-bottom: 35px;
   font: 10px/10px Gotham Pro, arial, helvetica, sans-serif;
 }
 .footer-singup__icon {
   display: flex;
   justify-content: space-between;
-  width: 137px;
+  width: 136px;
 }
 .footer__text {
   display: block;
@@ -739,15 +742,6 @@ body {
   padding-bottom: 30px;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 1024px) {
 .wrapper {
@@ -873,17 +867,17 @@ body {
   width: 250px;
 }
 .video__title {
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 .video__text {
   margin-bottom: 7px;
-  font: 13px/16px Gotham Pro, arial, helvetica, sans-serif;
+  font: 13px/17px Gotham Pro, arial, helvetica, sans-serif;
 }
 .video__button {
  margin-right: 10px;
 }
 .stories-justin {
-  width: 276px;
+  width: 277px;
   height: 147px;
   margin-right: 47px;
 }
@@ -931,61 +925,27 @@ body {
   margin-right: 60px;
 }
 .foto {
-  margin-bottom: 70px;
+  margin-bottom: 90px;
 }
 .foto__bw {
-  width: 132px;
+  width: 133px;
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
-  width: 180px;
-  margin-top: 68px;
-  margin-bottom: 51px;
-  margin-right: 20px;
+  margin-bottom: 52px;
 }
 .footer-myaccount {
-  margin-left: 200px;
+  margin-left: 128px;
 }
 .footer-myaccount__title, .footer-customerservice__title, .footer-miscellaneous__title, .footer-singup__title {
-  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
-  margin: 0;
-  color: #fff;
-  margin-bottom: 9px;
-}
-.footer-myaccount__menu, .footer-customerservice__menu, .footer-miscellaneous__menu, .footer-singup__text {
-  font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
-  margin: 0;
-  color: #fff;
-  text-decoration: none;
-  margin-bottom: 7px;
-  display: block;
+  margin-bottom: 10px;
 }
 .footer-singup__text{
-  margin: 0;
   margin-bottom: 10px;
 }
 .footer-singup__link {
-  color: #fff;
-  text-align:center;
-  padding: 8px 5px;
-  vertical-align: middle;
-  width: 123px;
-  border: solid 2px #fff;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 36px;
-  font: 10px/10px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 35px;
 }
 .footer-singup__icon {
-  display: flex;
-  justify-content: space-between;
-  width: 137px;
-}
-.footer__text {
-  display: block;
-  margin: 0;
-  color: #fff;
-  font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
-  padding-bottom: 30px;
-  text-align: center;
+  width: 134px;
 }
 }
