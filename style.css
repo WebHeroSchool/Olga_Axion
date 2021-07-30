@@ -1015,6 +1015,7 @@ body {
   }
   .stories-justin {
    margin-right: 11px;
+     background:   no-repeat url(img/stories1768.png) 50%/cover;
   }
   .stories-justin__title, .stories-first__title {
     padding-top: 63%;
