@@ -733,7 +733,13 @@ body {
 }
 .stories-justin {
   margin-right: 51px;
-  background:   no-repeat url(img/stories1.png) 50%/cover;
+  background:   no-repeat url(img/stories11024.png) 50%/cover;
+}
+.stories-first {
+  background:   no-repeat url(img/stories21024.png) 50%/cover;
+}
+.stories-kevin {
+background:   no-repeat url(img/stories31024.png) 50%/cover;  
 }
 .stories-justin, .stories-first, .stories-kevin {
   width: 278px;
@@ -1017,6 +1023,9 @@ body {
    margin-right: 11px;
      background:   no-repeat url(img/stories1768.png) 50%/cover;
   }
+  .stories-first {
+    background:  50%/cover no-repeat url(img/stories2768.png);
+  }
   .stories-justin__title, .stories-first__title {
     padding-top: 63%;
     font: bold 25px/24px Gotham Pro, arial, helvetica, sans-serif;
@@ -1043,26 +1052,20 @@ body {
     width: 49px;
     background-color: #fff;
   }
- /* .stories-justin__link::after, .stories-first__link::after {
-  content: '';
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  top: -2px;
-  right: 0;
-  background-color: #000;
-  transform: rotate(45deg);
+  .stories-justin__link::after, .stories-first__link::after {
+  width: 10px;
+  height: 2px;
+  top: -4px;
+  right: -1px;
+  background-color: #fff;
 }
 .stories-justin__link::before, .stories-first__link::before, .stories-kevin__link::before  {
-  content: '';
-  position: absolute;
-  width: 5px;
-  height: 1px;
-  top: 2px;
-  right: 0;
-  background-color: #000;
-  transform: rotate(-45deg);
-}*/
+  width: 10px;
+  height: 2px;
+  top: 3px;
+  right: -1px;
+  background-color: #fff;
+}
   .stories-justin__date, .stories-first__date {
     font: bold 15px/14px Gotham Pro, arial, helvetica, sans-serif;
     opacity: 1;
