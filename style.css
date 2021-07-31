@@ -579,27 +579,24 @@ body {
   padding-bottom: 30px;
   text-align: center;
 }
-
 #menu__toggle {
   display: none;
 }
 #menu__toggle:checked ~ .menu__btn > span {
-  transform: rotate(45deg);
+  transform: rotate(0);
 }
 #menu__toggle:checked ~ .menu__btn > span::before {
   top: 0;
-  transform: rotate(0);
+  transform: rotate(45deg);
 }
 #menu__toggle:checked ~ .menu__btn > span::after {
   top: 0;
-  transform: rotate(90deg);
+  transform: rotate(-45deg);
 }
 #menu__toggle:checked ~ .menu__box {
   visibility: visible;
   left: 0;
 }
-
-
 @media (max-width: 1024px) {
 .wrapper {
   width: 91%;
@@ -739,7 +736,7 @@ body {
   background:   no-repeat url(img/stories21024.png) 50%/cover;
 }
 .stories-kevin {
-background:   no-repeat url(img/stories31024.png) 50%/cover;  
+background:   no-repeat url(img/stories31024.png) 50%/cover;
 }
 .stories-justin, .stories-first, .stories-kevin {
   width: 278px;
@@ -771,7 +768,6 @@ background:   no-repeat url(img/stories31024.png) 50%/cover;
   width: 134px;
 }
 }
-
 @media (max-width: 768px) {
   .menu, .header__left {
     display: none;
@@ -791,17 +787,15 @@ background:   no-repeat url(img/stories31024.png) 50%/cover;
     margin-top: 10px;
   }
   .menu__btn {
-    display: flex;
-    align-items: center;
+    display: inline-block;
     position: fixed;
-    top: 40px;
-    right: 43px;
+    top: 55px;
+    right: 44px;
     width: 61px;
-    height: 37px;
+    height: 25px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 5;
     }
-    .menu__btn > span,
     .menu__btn > span::before,
     .menu__btn > span::after {
     display: block;
@@ -834,6 +828,7 @@ background:   no-repeat url(img/stories31024.png) 50%/cover;
     background-color: #FFF;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
     transition-duration: .25s;
+    z-index: 3;
     }
     .container {
     padding-top: 82px;
@@ -846,7 +841,7 @@ background:   no-repeat url(img/stories31024.png) 50%/cover;
     align-items: center;
     text-align: center;
     color: #000;
-    font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
+    font: bold 20px/22px Gotham Pro, arial, helvetica, sans-serif;
     text-decoration: none;
     transition-duration: .25s;
     }
