@@ -1068,7 +1068,6 @@ body {
 }
 .title {
   font: bold 30px/29px Gotham Pro, arial, helvetica, sans-serif;
-  opacity: 1;
   color: #fff;
   background: #000;
   margin-bottom: 0;
@@ -1144,7 +1143,7 @@ body {
 }
 .menu__btn {
   top: 33px;
-  right: 47px;
+  right: 44px;
   width: 41px;
   height: 16px;
   }
@@ -1194,238 +1193,181 @@ body {
   background-color: #CFD8DC;
 }*/
 .shop {
-  height: 415px;
-  background: 50%/cover no-repeat url('img/graffiti375.png');
-  margin-bottom: 34px;
+  height: 191px;
+  background: 0 0/auto auto no-repeat url('img/graffiti375.png');
+  margin-bottom: 36px;
 }
 .shop__title {
-  font: bold 50px/48px Gotham Pro, arial, helvetica, sans-serif;
-  padding-top: 120px;
-  padding-left: 45px;
-  width: 355px;
-  height: 169px;
-  margin-bottom: 22px;
+  font: bold 20px/20px Gotham Pro, arial, helvetica, sans-serif;
+  padding-top: 64px;
+  padding-left: 48px;
+  width: 200px;
+  height: 67px;
+  margin-bottom: 5px;
 }
 .shop__button {
-  font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
-  padding-left: 45px;
-  width: 119px;
-  height: 9px;
-  margin-right: 6px;
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  padding-left: 48px;
+  width: 74px;
+  margin-right: 0;
 }
 .shop__link {
-  width: 70px;
-  padding-bottom: 0.6px;
+ width: 45px;
+ height: 2px;
+ padding: 0;
+ margin: 0;
+ transform: translateY(-100%);
 }
 .shop__link::after {
-  width: 11px;
+  width: 6px;
   height: 2px;
-  top: -4px;
-  right: -3px;
+  top: -2px;
+  right: -2px;
 }
 .shop__link::before {
-  width: 11px;
+  width: 6px;
   height: 2px;
-  top: 4px;
-  right: -3px;
-  background-color: #fff;
-  transform: rotate(-45deg);
+  top: 2px;
+  right: -2px;
 }
 .product__title {
-  margin-bottom: 29px;
-  text-align: left;
-  padding-left: 210px;
-  font: bold 30px/29px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 0;
+  padding-left: 72px;
+  font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
 }
 .products {
   display: flex;
   justify-content: space-evenly;
-  height: 352px;
+  height: 287px;
 }
 .product__foto {
   margin-bottom: 13px;
-  width: 229px;
-  height: 233px;
-}
-.separator,  .product-mandel, .product-blue {
-  display: none;
+  width: 163px;
+  height: 165px;
+  padding-left: 35px;
 }
 .product-pepper {
   display: none;
 }
 .product-atlas {
-  width: 252px;
-  margin: 0;
-  padding-left: 15px;
-  padding-right: 0;
+  width: 267px;
+  padding-left: 0;
+  margin-left: 20px;
 }
-.product-pepper {
-  width: 266px;
-  margin: 0;
-  padding-left: 25px;
-  padding-right: 0;
+.product-atlas__title   {
+  margin-bottom: 7px;
+  font: 15px/14px Gotham Pro, arial, helvetica, sans-serif;
 }
-.product-atlas__title, .product-pepper__title  {
-  margin-bottom: 19px;
-  font: 20px/19px Gotham Pro, arial, helvetica, sans-serif;
-}
-.product-atlas__price, .product-pepper__price {
-  font: bold 25px/24px Gotham Pro, arial, helvetica, sans-serif;
+.product-atlas__price  {
+  font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
 }
 .product__circle {
-  transform: translateY(-17%);
+  transform: translateY(0);
 }
-.product__circle_white {
-  width: 20px;
-  height: 20px;
+.product__circle_white,  .product__circle_black_activ, .product__circle_red, .product__circle_yellow {
+  width: 15px;
+  height: 15px;
   margin-right: 0;
-}
-.product__circle_black_activ {
-  width: 20px;
-  height: 20px;
-  margin-right: 0;
-}
-.product__circle_red {
-  width: 20px;
-  height: 20px;
-  margin-right: 0;
-}
-.product__circle_yellow {
-  width: 20px;
-  height: 20px;
-}
-.product__circle_orange_activ {
-  width: 20px;
-  height: 20px;
-  margin-right: 0;
-}
-.video {
-  margin-bottom: 0;
-  flex-direction: column-reverse;
-  background: linear-gradient(-177.4deg, white  6%, black 6%);
 }
 .video-left {
-  width: 91%;
-  height: 390px;
+  width: 76%;
+  height: 160px;
   margin: 0;
+  margin-left: 4px;
 }
 .video__circle-transparent {
-  width: 60px;
-  height: 60px;
-  top: 41.8%;
-  left: 45.5%;
+  width: 31px;
+  height: 31px;
+  top: 40%;
+  left: 44%;
 }
 .video__circle-white {
-  width: 51px;
-  height: 51px;
+  width: 21px;
+  height: 21px;
   top: 43%;
-  left: 46.3%;
+  left: 46%;
 }
 .video__circle-white::before {
-  top: 20px;
-  left: 23px;
+  border: 2px solid transparent;
+  border-left: 4px solid rgba(0, 0, 0, 0.5);
+  top: 8px;
+  left: 10px;
 }
 .video-right{
-  width: 88%;
+  width: 76%;
   margin: 0;
-  margin-bottom: 31px;
-  text-align: center;
-  padding-top: 93px;
+  margin-bottom: 29px;
+  padding-top: 50px;
 }
 .video__title {
-  margin-bottom: 16px;
-  font: bold 30px/37px Gotham Pro, arial, helvetica, sans-serif;
+  width: 91%;
+  margin-left: 13px;
+  margin-bottom: 17px;
+  font: bold 20px/25px Gotham Pro, arial, helvetica, sans-serif;
 }
 .video__text {
   margin-bottom: 0;
-  font: 20px/25px Gotham Pro, arial, helvetica, sans-serif;
-}
-.video__button, .video__link, .stories-kevin {
-  display: none;
+  font: 14px/17px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories__title {
-  font: bold 30px/29px Gotham Pro, arial, helvetica, sans-serif;
-  margin-bottom: 43px;
-  color: #fff;
+  font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 28px;
 }
 .stories-container {
-  background: #000;
-  height: 665px;
-  padding-top: 105px;
+  height: 494px;
+  padding-top: 99px;
 }
 .stories {
-  display: flex;
-  justify-content: space-evenly;
-}
-.stories-justin, .stories-first {
-  width: 312px;
-  height: 166px;
-  margin: 0;
-}
-.stories-justin {
-  margin-right: 11px;
-  background:   no-repeat url(img/stories1768.png) 50%/cover;
+  justify-content: stretch;
+  width: 280px;
+  margin-left: 49px;
 }
 .stories-first {
-  background:  50%/cover no-repeat url(img/stories2768.png);
+  display: none;
 }
-.stories-justin__title, .stories-first__title {
-  padding-top: 63%;
-  font: bold 25px/24px Gotham Pro, arial, helvetica, sans-serif;
-  color: #fff;
-  margin-bottom: 10px;
+.stories-justin  {
+  width: 279px;
+  height: 148px;
+  margin: 0;
+}
+.stories-justin__title {
+  width: 100%;
+  padding-top: 64%;
+  font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories-justin__text {
-  color: #fff;
-  margin-bottom: 35px;
-  font: 20px/25px Gotham Pro, arial, helvetica, sans-serif;
+  width: 280px;
+  margin-bottom: 23px;
+  font: 14px/17px Gotham Pro, arial, helvetica, sans-serif;
 }
-.stories-first__text {
-  color: #fff;
-  margin-bottom: 61px;
-  font: 20px/25px Gotham Pro, arial, helvetica, sans-serif;
-}
-.stories-justin__button, .stories-first__button {
-  font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
+.stories-justin__button {
+  font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
   color: #fff;
   margin-right: 9px;
 }
-.stories-justin__link, .stories-first__link {
-  transform: translateY(-650%);
-  width: 49px;
-  background-color: #fff;
+.stories-justin__link {
+  transform: translateY(-350%);
+  width: 40px;
 }
-.stories-justin__link::after, .stories-first__link::after {
-  width: 10px;
-  height: 2px;
-  top: -4px;
+.stories-justin__link::after {
+  width: 7px;
+  height: 1px;
+  top: -2px;
   right: -1px;
-  background-color: #fff;
 }
-.stories-justin__link::before, .stories-first__link::before, .stories-kevin__link::before  {
-  width: 10px;
-  height: 2px;
-  top: 3px;
+.stories-justin__link::before {
+  width: 7px;
+  height: 1px;
+  top: 2px;
   right: -1px;
-  background-color: #fff;
-}
-.stories-justin__date, .stories-first__date {
-  font: bold 15px/14px Gotham Pro, arial, helvetica, sans-serif;
-  opacity: 1;
-  color: #fff;
 }
 .title {
-  font: bold 30px/29px Gotham Pro, arial, helvetica, sans-serif;
-  opacity: 1;
-  color: #fff;
-  background: #000;
-  margin-bottom: 0;
-  padding-top: 20px;
-  padding-right: 45px;
+  font: bold 25px/24px Gotham Pro, arial, helvetica, sans-serif;
+  padding-right: 50px;
 }
 .foto {
   flex-direction: column;
-  width: 100%;
+  width: 76%;
   display: flex;
   align-items: center;
   margin-bottom: 126px;
@@ -1434,9 +1376,8 @@ body {
   background: linear-gradient(-177.4deg, black  41%, white 41%);
 }
 .foto__bw, .foto__bwuno {
-  display:inline-block;
-  width: 170px;
-  height: 170px
+  width: 140px;
+  height: 140px
 }
 .foto-containerone, .foto-containertwo {
   display: block;
