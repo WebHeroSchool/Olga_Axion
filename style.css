@@ -1367,13 +1367,12 @@ body {
 }
 .foto {
   flex-direction: column;
-  width: 76%;
+  width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 126px;
-  height: 340px;
   padding-top: 10px;
-  background: linear-gradient(-177.4deg, black  41%, white 41%);
+  background: linear-gradient(-177.4deg, black  68%, white 68%);
 }
 .foto__bw, .foto__bwuno {
   width: 140px;
@@ -1381,6 +1380,7 @@ body {
 }
 .foto-containerone, .foto-containertwo {
   display: block;
+  margin-left: 45px;
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
   display: inline-block;
