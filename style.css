@@ -768,6 +768,24 @@ body {
   width: 134px;
 }
 }
+
+@media (max-width: 930px){
+ .foto__bw1, .foto__bw2, .foto__bw3, .foto__bw4, .foto__bw5, .foto__bw6, .foto__bw7 {
+  width: 120px;
+}
+.stories-justin__title, .stories-first__title, .stories-kevin__title {
+  padding-top: 80%;
+  margin-bottom: 11px;
+}
+}
+@media (max-width: 860px){
+ .foto__bw1, .foto__bw2, .foto__bw3, .foto__bw4, .foto__bw5, .foto__bw6, .foto__bw7 {
+  width: 110px;
+}
+.product-atlas, .product-pepper, .product-mandel, .product-blue {
+  width: 155px;
+}
+}
 @media (max-width: 768px) {
 .menu, .header__left {
   display: none;
@@ -1092,10 +1110,7 @@ body {
 .foto__bw1, .foto__bw2, .foto__bw3, .foto__bw4, .foto__bw5, .foto__bw6, .foto__bw7, .foto__bw8 {
   display:inline-block;
   width: 170px;
-  height: 170px
-}
-.foto-containerone, .foto-containertwo {
-  display: block;
+  height: 170px;
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
   display: inline-block;
@@ -1133,6 +1148,69 @@ body {
   padding-bottom: 36px;
 }
 }
+@media (max-width: 680px) {
+  .foto__bw4, .foto__bw8 {
+  display: none;
+}
+.foto__bw1, .foto__bw2, .foto__bw3, .foto__bw5, .foto__bw6, .foto__bw7 {
+  display:inline-block;
+  width: 150px;
+  height: 150px;
+}
+}
+
+@media (max-width: 550px){
+ .stories-justin__title, .stories-first__title {
+  padding-top: 90%;
+}
+.foto__bw1, .foto__bw2, .foto__bw3, .foto__bw5, .foto__bw6, .foto__bw7 {
+  display:inline-block;
+  width: 120px;
+  height: 120px;
+}
+.title {
+  padding-top: 120px;
+}
+.product-atlas {
+  width: 200px;
+  padding-left: 0;
+}
+.product-pepper {
+  width: 200px;
+  padding-left: 0;
+}
+.product__foto {
+  margin-bottom: 13px;
+  width: 180px;
+  height: 150px;
+}
+.product__title {
+  padding-left: 20px;
+}
+.footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
+  width: 125px;
+}
+.footer-myaccount {
+  margin-left: 5px;
+}
+.footer-customerservice {
+  margin-right: 4px;
+}
+.footer-miscellaneous {
+  margin-right: 4px;
+}
+.footer-singup {
+  width: 140px;
+}
+.footer-singup__link {
+  width: 100px;
+  margin-bottom: 20px;
+}
+.footer-singup__icon {
+  width: 100px;
+}
+}
+
 @media (max-width: 375px) {
 
 .header {
