@@ -505,7 +505,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 75px;
+  margin-bottom: 79px;
 }
 .foto__bw1, .foto__bw2, .foto__bw3, .foto__bw4, .foto__bw5, .foto__bw6, .foto__bw7 {
   display:inline-block;
@@ -756,7 +756,7 @@ body {
   margin-bottom: 280px;
 }
 .foto {
-  margin-bottom: 89px;;
+  margin-bottom: 93px;
 }
 .foto__bw1, .foto__bw2, .foto__bw3, .foto__bw4, .foto__bw5, .foto__bw6, .foto__bw7 {
   width: 133px;
@@ -1147,7 +1147,7 @@ body {
 }
 .menu__btn {
   top: 33px;
-  right: 37px;
+  right: 46px;
   width: 41px;
   height: 16px;
   }
@@ -1221,7 +1221,7 @@ body {
 .product-atlas {
   width: 267px;
   padding-left: 0;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 .product-atlas__title   {
   margin-bottom: 7px;
@@ -1271,7 +1271,7 @@ body {
 .video__title {
   width: 91%;
   margin-left: 16px;
-  margin-bottom: 17px;
+  margin-left: 14px;
   font: bold 20px/25px Gotham Pro, arial, helvetica, sans-serif;
 }
 .video__text {
@@ -1301,7 +1301,7 @@ body {
 }
 .stories-justin__title {
   width: 100%;
-  padding-top: 64%;
+  padding-top: 63%;
   font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories-justin__text {
@@ -1332,13 +1332,13 @@ body {
 }
 .title {
   font: bold 25px/24px Gotham Pro, arial, helvetica, sans-serif;
-  padding-right: 50px;
+  padding-right: 53px;
 }
 .foto {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 164px;
+  margin-bottom: 166px
   padding-top: 10px;
   background: linear-gradient(-177.4deg, black  68%, white 68%);
 }
@@ -1393,7 +1393,7 @@ body {
 }
 .footer-myaccount {
   order: 0;
-  padding-top: 40px;
+  padding-top: 37px;
   padding-bottom: 40px;
 }
 .footer-customerservice {
