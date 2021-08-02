@@ -1424,53 +1424,68 @@ body {
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
   display: block;
-  width: 145px;
-  margin-top: 58px;
-  margin-right: 0;
-  margin-bottom: 70px;
+  width: 210px;
+  margin: auto;
+  text-align: center;
 }
 .footer-myaccount {
   order: 0;
+  padding-top: 77px;
+  padding-bottom: 40px;
 }
 .footer-customerservice {
   order: 2;
+  padding-bottom: 39px;
 }
 .footer-miscellaneous {
   order: 1;
+  padding-bottom: 39px;
 }
 .footer-singup {
   order: 3;
+  padding-bottom: 25px;
 }
 .footer-myaccount__title, .footer-customerservice__title, .footer-miscellaneous__title, .footer-singup__title {
   font: bold 15px/14px Gotham Pro, arial, helvetica, sans-serif;
   margin: 0;
+  margin-bottom: 6px;
 }
-.footer-myaccount {
-  margin-left: 0;
+.footer-singup__title {
+ margin-bottom: 12px;
 }
-.footer-customerservice {
-  margin-right: 0;
+.footer-myaccount__menu, .footer-customerservice__menu, .footer-miscellaneous__menu, .footer-singup__text {
+  font: 15px/14px Gotham Pro, arial, helvetica, sans-serif;
+  margin: 0;
 }
-.footer-miscellaneous {
-  margin-right: 0;
+.footer-myaccount__menu {
+  padding-bottom: 10px;
 }
-.footer-singup {
-  width: 150px;
+.footer-customerservice__menu {
+  padding-bottom: 7px;
+}
+.footer-miscellaneous__menu {
+  padding-bottom: 7px;
 }
 .footer-singup__text {
   margin: 0;
-  margin-bottom: 0;
+  margin-bottom: 22px;
 }
 .footer-singup__link {
-  padding: 6px 0;
+  padding: 11px 0;
   vertical-align: middle;
-  width: 140px;
-  margin-bottom: 29px;
+  width: 146px;
+  align-items: center;
+  margin: auto;
+  font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 105px;
 }
 .footer-singup__icon {
-  width: 117px;
+  width: 165px;
+  margin: auto;
 }
 .footer__text {
-  padding-bottom: 36px;
+  padding-bottom: 32px;
+  font: 13px/12px Gotham Pro, arial, helvetica, sans-serif;
+  margin: auto;
 }
 }
