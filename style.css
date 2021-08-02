@@ -1411,12 +1411,13 @@ body {
 .title {
   font: bold 25px/24px Gotham Pro, arial, helvetica, sans-serif;
   padding-right: 53px;
+  padding-top: 22px;
 }
 .foto {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 166px;
+  margin-bottom: 163px;
   padding-top: 10px;
   background: linear-gradient(-177.4deg, black  68%, white 68%);
 }
