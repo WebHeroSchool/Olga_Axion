@@ -511,9 +511,9 @@ body {
   display:inline-block;
   width: 147px;
 }
-.foto-containerone, .foto-containertwo {
+/*.foto-containerone, .foto-containertwo {
   display: inline-block;
-}
+}*/
 .foto__bw8 {
   display: none;
 }
