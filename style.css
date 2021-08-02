@@ -511,9 +511,9 @@ body {
   display:inline-block;
   width: 147px;
 }
-/*.foto-containerone, .foto-containertwo {
-  display: inline-block;
-}*/
+.foto-container {
+  display: flex;
+}
 .foto__bw8 {
   display: none;
 }
@@ -1079,9 +1079,9 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 126px;
+  margin-bottom: 121px;
   height: 340px;
-  padding-top: 10px;
+  padding-top: 15px;
   background: linear-gradient(-177.4deg, black  41%, white 41%);
 }
 .foto-container {
@@ -1133,7 +1133,6 @@ body {
   padding-bottom: 36px;
 }
 }
-
 @media (max-width: 375px) {
 
 .header {
@@ -1148,7 +1147,7 @@ body {
 }
 .menu__btn {
   top: 33px;
-  right: 44px;
+  right: 37px;
   width: 41px;
   height: 16px;
   }
@@ -1162,41 +1161,6 @@ body {
 .menu__btn > span::after {
   top: 5px;
 }
-/*.menu__box {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 80px 0;
-  list-style: none;
-  text-align: center;
-  background-color: #FFF;
-  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  transition-duration: .25s;
-  z-index: 3;
-}
-.container {
-  padding-top: 82px;
-}
-.menu__hamburger {
-  padding-top: 25px;
-  padding-right:53px;
-  margin-top: 0;
-  display: inline-block;
-  align-items: center;
-  text-align: center;
-  color: #000;
-  font: bold 20px/22px Gotham Pro, arial, helvetica, sans-serif;
-  text-decoration: none;
-  transition-duration: .25s;
-}
-.menu__hamburger:hover {
-  background-color: #CFD8DC;
-}*/
 .shop {
   height: 191px;
   background: 0 0/auto auto no-repeat url('img/graffiti375.png');
@@ -1257,7 +1221,7 @@ body {
 .product-atlas {
   width: 267px;
   padding-left: 0;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 .product-atlas__title   {
   margin-bottom: 7px;
@@ -1300,18 +1264,18 @@ body {
 }
 .video-right{
   width: 76%;
-  margin: 0;
+  margin: auto;
   margin-bottom: 29px;
   padding-top: 50px;
 }
 .video__title {
   width: 91%;
-  margin-left: 13px;
+  margin-left: 16px;
   margin-bottom: 17px;
   font: bold 20px/25px Gotham Pro, arial, helvetica, sans-serif;
 }
 .video__text {
-  margin-bottom: 0;
+  margin: 0;
   font: 14px/17px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories__title {
@@ -1371,11 +1335,10 @@ body {
   padding-right: 50px;
 }
 .foto {
-  /*flex-direction: column;*/
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 126px;
+  margin-bottom: 164px;
   padding-top: 10px;
   background: linear-gradient(-177.4deg, black  68%, white 68%);
 }
@@ -1389,6 +1352,8 @@ body {
 .foto-container {
   display: flex;
   flex-flow: wrap;
+  padding-left: 48px;
+  padding-top: 76px;
 }
 .foto__bw1, .foto__bw2, .foto__bw3, .foto__bw5, .foto__bw6, .foto__bw7 {
   width: 140px;
@@ -1411,11 +1376,6 @@ body {
 .foto__bw7 {
   order: 3;
 }
-
-/*.foto-containerone, .foto-containertwo {
-  display: block;
-  margin-left: 45px;
-}*/
 .footer__menu {
   margin-bottom: 0;
   flex-direction: column;
@@ -1433,7 +1393,139 @@ body {
 }
 .footer-myaccount {
   order: 0;
-  padding-top: 77px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.footer-customerservice {
+  order: 2;
+  padding-bottom: 39px;
+}
+.footer-miscellaneous {
+  order: 1;
+  padding-bottom: 39px;
+}
+.footer-singup {
+  order: 3;
+  padding-bottom: 25px;
+}
+.footer-myaccount__title, .footer-customerservice__title, .footer-miscellaneous__title, .footer-singup__title {
+  font: bold 15px/14px Gotham Pro, arial, helvetica, sans-serif;
+  margin: 0;
+  margin-bottom: 6px;
+}
+.footer-singup__title {
+  margin-bottom: 12px;
+}
+.footer-myaccount__menu, .footer-customerservice__menu, .footer-miscellaneous__menu, .footer-singup__text {
+  font: 15px/14px Gotham Pro, arial, helvetica, sans-serif;
+  margin: 0;
+}
+.footer-myaccount__menu {
+  padding-bottom: 10px;
+}
+.footer-customerservice__menu {
+  padding-bottom: 7px;
+}
+.footer-miscellaneous__menu {
+  padding-bottom: 7px;
+}
+.footer-singup__text {
+  margin: 0;
+  margin-bottom: 22px;
+}
+.footer-singup__link {
+  padding: 11px 0;
+  vertical-align: middle;
+  width: 146px;
+  align-items: center;
+  margin: auto;
+  font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
+  margin-bottom: 105px;
+}
+.footer-singup__icon {
+  width: 165px;
+  margin: auto;
+}
+.footer__text {
+  padding-bottom: 32px;
+  font: 13px/12px Gotham Pro, arial, helvetica, sans-serif;
+  margin: auto;
+}
+}
+@media (max-width: 320px) {
+.logo {
+  margin-left: 20px;
+}
+.menu__btn {
+  right: 20px;
+  }
+.shop {
+  background: 0 0/auto auto no-repeat url('img/graffiti320.png');
+}
+.shop__title {
+  padding-left: 20px;
+}
+.shop__button {
+  padding-left: 20px;
+}
+.shop__link {
+  width: 44px;
+}
+.product__title {
+  padding-left: 44px;
+}
+.products {
+  height: 286px;
+}
+.product-atlas {
+  margin-left: 18px;
+}
+.video-left {
+  width: 89%;
+  margin: auto;
+}
+.video-right{
+  width: 88%;
+}
+.video__title {
+  width: 89%;
+  margin-left: 14px;
+}
+.stories {
+  margin: auto;
+}
+.stories-justin__title {
+  padding-top: 63%;
+}
+.title {
+  padding-right: 26px;
+}
+.foto {
+  background: linear-gradient(-177.4deg, black  69%, white 69%);
+}
+.foto-container {
+  width: 88%;
+  padding-left: 0;
+  padding-top: 81px;
+}
+.footer__menu {
+  margin-bottom: 0;
+  flex-direction: column;
+  align-items: center;
+  width: 76%;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+}
+.footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
+  display: block;
+  width: 210px;
+  margin: auto;
+  text-align: center;
+}
+.footer-myaccount {
+  order: 0;
+  padding-top: 40px;
   padding-bottom: 40px;
 }
 .footer-customerservice {
