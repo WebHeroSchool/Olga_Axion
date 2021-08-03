@@ -662,6 +662,9 @@ body {
 .product-atlas__title, .product-pepper__title, .product-mandel__title, .product-blue__title {
   margin-bottom: 9px;
 }
+.product__circle {
+  transform: translateY(-15%);
+}
 .product__circle_white {
   width: 6px;
 }
