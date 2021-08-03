@@ -785,6 +785,19 @@ body {
 .product-atlas, .product-pepper, .product-mandel, .product-blue {
   width: 155px;
 }
+.menu__item {
+  margin: 0 10px;
+}
+.search {
+  width: 150px;
+}
+.search-field {
+  width: 120px;
+}
+.menu__sign {
+  margin-right: 15px;
+  margin-left: 20px;
+}
 }
 @media (max-width: 768px) {
 .menu, .header__left {
