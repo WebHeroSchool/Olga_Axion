@@ -957,12 +957,13 @@ body {
   font: bold 25px/24px Gotham Pro, arial, helvetica, sans-serif;
 }
 .product__circle {
-  transform: translateY(-17%);
+  transform: translateY(0);
 }
 .product__circle_white {
   width: 20px;
   height: 20px;
   margin-right: 0;
+  vertical-align: middle;
 }
 .product__circle_black_activ {
   width: 20px;
