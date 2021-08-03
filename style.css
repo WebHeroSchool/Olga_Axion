@@ -307,7 +307,7 @@ body {
 .video-left {
   width: 70%;
   height: 361px;
-  background: no-repeat url(img/picture.png) 50%/cover;
+  background: no-repeat url('img/picture.png') 50%/cover;
   margin: 67px 40px 66px 33px;
 }
 .video__circle-transparent {
@@ -418,7 +418,7 @@ body {
 }
 .stories-justin {
   margin-right: 51px;
-  background:   no-repeat url(img/stories1.png) 50%/cover;
+  background:   no-repeat url('img/stories1.png') 50%/cover;
 }
 .stories-justin, .stories-first, .stories-kevin {
   width: 306px;
@@ -487,10 +487,10 @@ body {
 }
 .stories-first {
   margin-right: 51px;
-  background:  50%/cover no-repeat url(img/stories2.png);
+  background:  50%/cover no-repeat url('img/stories2.png');
 }
 .stories-kevin {
-  background:  50%/cover no-repeat url(img/stories3.png);
+  background:  50%/cover no-repeat url('img/stories3.png');
   margin-bottom: 270px;
 }
 .title {
@@ -733,13 +733,13 @@ body {
 }
 .stories-justin {
   margin-right: 51px;
-  background:   no-repeat url(img/stories11024.png) 50%/cover;
+  background:   no-repeat url('img/stories11024.png') 50%/cover;
 }
 .stories-first {
-  background:   no-repeat url(img/stories21024.png) 50%/cover;
+  background:   no-repeat url('img/stories21024.png') 50%/cover;
 }
 .stories-kevin {
-  background:   no-repeat url(img/stories31024.png) 50%/cover;
+  background:   no-repeat url('img/stories31024.png') 50%/cover;
 }
 .stories-justin, .stories-first, .stories-kevin {
   width: 278px;
@@ -1050,10 +1050,10 @@ body {
 }
 .stories-justin {
   margin-right: 11px;
-  background:   no-repeat url(img/stories1768.png) 50%/cover;
+  background:   no-repeat url('img/stories1768.png') 50%/cover;
 }
 .stories-first {
-  background:  50%/cover no-repeat url(img/stories2768.png);
+  background:  50%/cover no-repeat url('img/stories2768.png');
 }
 .stories-justin__title, .stories-first__title {
   padding-top: 63%;
@@ -1068,7 +1068,7 @@ body {
 }
 .stories-first__text {
   color: #fff;
-  margin-bottom: 61px;
+  margin-bottom: 35px;
   font: 20px/25px Gotham Pro, arial, helvetica, sans-serif;
 }
 .stories-justin__button, .stories-first__button {
