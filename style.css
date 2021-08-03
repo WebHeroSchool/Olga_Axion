@@ -1326,6 +1326,7 @@ body {
 }
 .product__circle {
   transform: translateY(0);
+  padding-right: 3px;
 }
 .product__circle_white,  .product__circle_black_activ, .product__circle_red, .product__circle_yellow {
   width: 15px;
@@ -1581,6 +1582,7 @@ body {
 }
 .video-right{
   width: 88%;
+  margin-bottom: 30px;
 }
 .video__title {
   width: 89%;
@@ -1589,8 +1591,11 @@ body {
 .stories {
   margin: auto;
 }
+.stories-container {
+  padding-top: 97px;
+}
 .stories-justin__title {
-  padding-top: 63%;
+  padding-top: 64%;
 }
 .title {
   padding-right: 26px;
@@ -1601,7 +1606,7 @@ body {
 .foto-container {
   width: 88%;
   padding-left: 0;
-  padding-top: 81px;
+  padding-top: 80px;
 }
 .footer__menu {
   margin-bottom: 0;
@@ -1670,7 +1675,7 @@ body {
   margin-bottom: 105px;
 }
 .footer-singup__icon {
-  width: 165px;
+  width: 166px;
   margin: auto;
 }
 .footer__text {
