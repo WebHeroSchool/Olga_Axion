@@ -829,7 +829,8 @@ body {
   cursor: pointer;
   z-index: 5;
   }
-.menu__btn > span::before, .menu__btn > span::after {
+.menu__btn > span::before,
+.menu__btn > span::after {
   display: block;
   position: absolute;
   width: 100%;
@@ -1173,6 +1174,7 @@ body {
   height: 150px;
 }
 }
+
 @media (max-width: 550px){
  .stories-justin__title, .stories-first__title {
   padding-top: 90%;
@@ -1224,7 +1226,9 @@ body {
   width: 100px;
 }
 }
+
 @media (max-width: 375px) {
+
 .header {
   height: 72px;
   margin: 0;
@@ -1241,7 +1245,8 @@ body {
   width: 41px;
   height: 16px;
   }
-.menu__btn > span::before, .menu__btn > span::after {
+.menu__btn > span::before,
+.menu__btn > span::after {
   height: 5px;
 }
 .menu__btn > span::before {
