@@ -223,7 +223,7 @@ body {
 .product__circle, .product-atlas__circle {
   transform: translateY(-30%);
 }
-.product__circle_white {
+.product__circle_white, .product__circle_white_activ {
   display: inline-block;
   width: 7px;
   height: 7px;
@@ -665,7 +665,7 @@ body {
 .product__circle, .product-atlas__circle {
   transform: translateY(-15%);
 }
-.product__circle_white {
+.product__circle_white, .product__circle_white_activ {
   width: 6px;
 }
 .product__circle_black_activ {
@@ -970,6 +970,12 @@ body {
   margin-right: 5px;
   vertical-align: middle;
   order: 2;
+}
+.product__circle_white_activ {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 .product__circle_black_activ {
   width: 20px;
@@ -1332,13 +1338,18 @@ body {
 .product-atlas__price  {
   font: bold 20px/19px Gotham Pro, arial, helvetica, sans-serif;
 }
-.product__circle {
-  transform: translateY(0);
-  padding-right: 3px;
+.product-atlas__circle {
+  transform: translateY(20%);
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
 }
 .product__circle_white,  .product__circle_black_activ, .product__circle_red, .product__circle_yellow {
   width: 15px;
   height: 15px;
+  margin-right: 6px;
+}
+.product__circle_yellow{
   margin-right: 0;
 }
 .video-left {
