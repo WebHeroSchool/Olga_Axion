@@ -223,7 +223,7 @@ body {
 .product__circle, .product-atlas__circle {
   transform: translateY(-30%);
 }
-.product__circle_white, .product__circle_white_activ {
+.product__circle_white {
   display: inline-block;
   width: 7px;
   height: 7px;
@@ -522,21 +522,23 @@ body {
 }
 .footer__menu {
   display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 68px;
+  margin-bottom: 52px;
 }
 .footer-myaccount, .footer-customerservice, .footer-miscellaneous, .footer-singup {
   display: inline-block;
-  width: 180px;
-  margin-top: 68px;
-  margin-bottom: 53px;
-  margin-right: 20px;
+  width: 15%;
+  margin-right: 24px;
 }
-.footer-myaccount {
-  margin-left: 200px;
+.footer-singup {
+  margin-right: 0;
 }
 .footer-myaccount__title, .footer-customerservice__title, .footer-miscellaneous__title, .footer-singup__title {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
-  margin: 0;
   color: #fff;
+  margin: 0;
   margin-bottom: 10px;
 }
 .footer-singup__title {
@@ -544,32 +546,35 @@ body {
 }
 .footer-myaccount__menu, .footer-customerservice__menu, .footer-miscellaneous__menu, .footer-singup__text {
   font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
-  margin: 0;
   color: #fff;
   text-decoration: none;
-  margin-bottom: 7px;
+  margin: 0;
   display: block;
+  margin-bottom: 7px;
 }
 .footer-singup__text {
   margin: 0;
   margin-bottom: 12px;
 }
 .footer-singup__link {
-  color: #fff;
-  text-align:center;
+  text-align: center;
   padding: 9px 5px;
   vertical-align: middle;
   width: 123px;
+  display: block;
+  margin-left: 2px;
+  margin-bottom: 33px;
   border: solid 2px #fff;
   text-decoration: none;
-  display: block;
-  margin-bottom: 33px;
   font: 10px/10px Gotham Pro, arial, helvetica, sans-serif;
+  color: #fff;
 }
 .footer-singup__icon {
   display: flex;
   justify-content: space-between;
-  width: 136px;
+  width: 79%;
+  margin-left: 3px;
+  align-items: baseline;
 }
 .footer__text {
   display: block;
@@ -665,7 +670,7 @@ body {
 .product__circle, .product-atlas__circle {
   transform: translateY(-15%);
 }
-.product__circle_white, .product__circle_white_activ {
+.product__circle_white {
   width: 6px;
 }
 .product__circle_black_activ {
@@ -970,12 +975,6 @@ body {
   margin-right: 5px;
   vertical-align: middle;
   order: 2;
-}
-.product__circle_white_activ {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
-  vertical-align: middle;
 }
 .product__circle_black_activ {
   width: 20px;
