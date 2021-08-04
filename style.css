@@ -223,7 +223,7 @@ body {
 .product__circle, .product-atlas__circle {
   transform: translateY(-30%);
 }
-.product__circle_white {
+.product__circle_white, .product__circle_white_activ {
   display: inline-block;
   width: 7px;
   height: 7px;
@@ -670,7 +670,7 @@ body {
 .product__circle, .product-atlas__circle {
   transform: translateY(-15%);
 }
-.product__circle_white {
+.product__circle_white, .product__circle_white_activ {
   width: 6px;
 }
 .product__circle_black_activ {
@@ -975,6 +975,12 @@ body {
   margin-right: 5px;
   vertical-align: middle;
   order: 2;
+}
+.product__circle_white_activ {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
 .product__circle_black_activ {
   width: 20px;
