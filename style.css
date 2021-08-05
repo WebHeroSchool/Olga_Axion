@@ -553,7 +553,7 @@ width: 200px;
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
   color: #fff;
   margin: 0;
-  margin-bottom: 11px;
+  margin-bottom: 9px;
 }
 .footer-singup__title {
   margin-bottom: 7px;
@@ -1213,6 +1213,9 @@ width: 200px;
 .footer-singup__text {
   margin-bottom: 14px;
 }
+.footer-singup__text-word {
+  word-spacing: 5px;
+}
 .footer-singup__link {
   margin-bottom: 27px;
   padding: 6px 1px;
@@ -1220,21 +1223,32 @@ width: 200px;
   margin-left: 0;
 }
 .footer-singup__icon {
-  width: 76%;
+  width: 74%;
   margin-left: 0;
+}
+.facebook {
+  width: 7px;
+}
+.twitter, .instagram {
+  width: 15px;
+}
+.pinterest {
+  width: 12px;
 }
 }
 @media (max-width: 680px) {
-  .foto__bw4, .foto__bw8 {
+.foto__bw4, .foto__bw8 {
   display: none;
 }
 .foto__bw1, .foto__bw2, .foto__bw3, .foto__bw5, .foto__bw6, .foto__bw7 {
-  display:inline-block;
+  display: inline-block;
   width: 150px;
   height: 150px;
 }
+.foto-container {
+ margin: 0 auto;
 }
-
+}
 @media (max-width: 550px){
  .stories-justin__title, .stories-first__title {
   padding-top: 90%;
@@ -1286,9 +1300,7 @@ width: 200px;
   width: 100px;
 }
 }
-
 @media (max-width: 375px) {
-
 .header {
   height: 72px;
   margin: 0;
@@ -1304,7 +1316,7 @@ width: 200px;
   right: 46px;
   width: 41px;
   height: 16px;
-  }
+}
 .menu__btn > span::before,
 .menu__btn > span::after {
   height: 5px;
@@ -1433,6 +1445,9 @@ width: 200px;
   width: 80%;
   margin-bottom: 16px;
   font: bold 20px/25px Gotham Pro, arial, helvetica, sans-serif;
+}
+.video__title-word {
+  margin-left: -5px;
 }
 .video__text {
   width: 99%;
@@ -1602,6 +1617,9 @@ width: 200px;
   margin: 0;
   margin-bottom: 22px;
 }
+.footer-singup__text-word {
+  word-spacing: 0;
+}
 .footer-singup__link {
   padding: 11px 0;
   vertical-align: middle;
@@ -1612,8 +1630,21 @@ width: 200px;
   margin-bottom: 104px;
 }
 .footer-singup__icon {
-  width: 77%;
+  width: 80%;
   margin: auto;
+  vertical-align: middle;
+}
+.facebook {
+  width: 9px;
+  height: 21px;
+}
+.twitter, .instagram {
+  width: 21px;
+  height: 21px;
+}
+.pinterest {
+  width: 19px;
+  height: 21px;
 }
 .footer__text {
   padding-bottom: 32px;
@@ -1627,7 +1658,7 @@ width: 200px;
 }
 .menu__btn {
   right: 20px;
-  }
+}
 .shop {
   background: 0 0/auto auto no-repeat url('img/graffiti320.png');
 }
@@ -1684,13 +1715,17 @@ width: 200px;
   padding-top: 21px;
 }
 .foto {
-  margin-bottom: 158px;
+  margin-bottom: 162px;
   background: linear-gradient(-177.4deg, black  68%, white 68%);
 }
 .foto-container {
   width: 88%;
   padding-left: 0;
   padding-top: 73px;
+}
+.footer {
+  border-left: solid 3px #fff;
+  border-right: solid 3px #fff;
 }
 .footer__menu {
   margin-bottom: 0;
@@ -1709,7 +1744,7 @@ width: 200px;
 }
 .footer-myaccount {
   order: 0;
-  padding-top: 40px;
+  padding-top: 36px;
   padding-bottom: 40px;
 }
 .footer-customerservice {
@@ -1756,15 +1791,28 @@ width: 200px;
   align-items: center;
   margin: auto;
   font: 12px/11px Gotham Pro, arial, helvetica, sans-serif;
-  margin-bottom: 105px;
+  margin-bottom: 104px;
 }
 .footer-singup__icon {
-  width: 166px;
-  margin: auto;
+  width: 80%;
+}
+.facebook {
+  width: 8px;
+  height: 21px;
+}
+.twitter {
+  width: 20px;
+  height: 20px;
+}
+.instagram {
+  width: 21px;
+  height: 21px;
+}
+.pinterest {
+  width: 20px;
+  height: 21px;
 }
 .footer__text {
-  padding-bottom: 34px;
-  font: 13px/12px Gotham Pro, arial, helvetica, sans-serif;
-  margin: auto;
+  padding-bottom: 33px;
 }
 }
