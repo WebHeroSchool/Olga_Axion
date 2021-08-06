@@ -307,8 +307,10 @@ body {
 .video-left {
   width: 70%;
   height: 361px;
-  background: no-repeat url('img/picture.png') 50%/cover;
   margin: 66px 40px 66px 33px;
+}
+.video-left__foto{
+  
 }
 .video__circle-transparent {
   width: 56px;
