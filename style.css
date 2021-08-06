@@ -191,33 +191,19 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/*.product__foto {
-  margin-bottom: 23px;
-  margin-left: 11px;
-}*/
 .product-atlas__foto {
   background:  no-repeat url('img/atlas.png');
-  width: 230px;
-  height: 261px;
-  margin-bottom: 23px;
-  margin-left: 11px;
 }
 .product-pepper__foto {
   background: no-repeat url('img/pepper.png');
-  width: 230px;
-  height: 261px;
-  margin-bottom: 23px;
-  margin-left: 11px;
 }
 .product-mandel__foto {
   background: no-repeat url('img/mandel.png');
-  width: 230px;
-  height: 261px;
-  margin-bottom: 23px;
-  margin-left: 11px;
 }
 .product-blue__foto {
   background:  no-repeat url('img/blue.png');
+}
+.product-atlas__foto, .product-pepper__foto, .product-mandel__foto, .product-blue__foto {
   width: 230px;
   height: 261px;
   margin-bottom: 23px;
@@ -695,31 +681,19 @@ width: 200px;
 .product__title {
   margin-bottom: 21px;
 }
-/*.product__foto {
-  width: 170px;
-  height: 173px;
-  margin-bottom: 21px;
-}*/
 .product-atlas__foto {
   background:  no-repeat url('img/atlas1024.png');
-  width: 170px;
-  height: 173px;
-  margin-bottom: 21px;
 }
 .product-pepper__foto {
   background: no-repeat url('img/pepper1024.png');
-  width: 170px;
-  height: 173px;
-  margin-bottom: 21px;
 }
 .product-mandel__foto {
   background: no-repeat url('img/mandel1024.png');
-  width: 170px;
-  height: 173px;
-  margin-bottom: 21px;
 }
 .product-blue__foto {
   background:  no-repeat url('img/blue1024.png');
+}
+.product-atlas__foto, .product-pepper__foto, .product-mandel__foto, .product-blue__foto {
   width: 170px;
   height: 173px;
   margin-bottom: 21px;
@@ -1031,10 +1005,16 @@ width: 200px;
   justify-content: space-evenly;
   height: 352px;
 }
-.product__foto {
-  margin-bottom: 13px;
-  width: 229px;
+.product-atlas__foto {
+  background:  no-repeat url('img/atlas768.png');
+}
+.product-pepper__foto {
+  background: no-repeat url('img/pepper768.png');
+}
+.product-atlas__foto, .product-pepper__foto  {
+  width: 230px;
   height: 233px;
+  margin-bottom: 13px;
 }
 .separator,  .product-mandel, .product-blue {
   display: none;
@@ -1510,8 +1490,10 @@ width: 200px;
   justify-content: space-evenly;
   height: 287px;
 }
-.product__foto {
-  margin-bottom: 13px;
+.product-atlas__foto {
+  background:  no-repeat url('img/atlas375.png');
+}
+.product-atlas__foto {
   width: 163px;
   height: 165px;
   padding-left: 35px;
