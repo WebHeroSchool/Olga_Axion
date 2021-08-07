@@ -935,7 +935,7 @@ width: 200px;
   left: -100%;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: auto;
   padding: 80px 0;
   list-style: none;
   text-align: center;
@@ -949,18 +949,21 @@ width: 200px;
 }
 .menu__hamburger {
   padding-top: 25px;
-  padding-right:53px;
   margin-top: 0;
   display: inline-block;
   align-items: center;
   text-align: center;
   color: #000;
-  font: bold 20px/22px Gotham Pro, arial, helvetica, sans-serif;
+  font: bold 30px/32px Gotham Pro, arial, helvetica, sans-serif;
   text-decoration: none;
   transition-duration: .25s;
 }
 .menu__hamburger:hover {
   background-color: #CFD8DC;
+}
+.menu__hamburger-flag {
+  width: 67px;
+  height: 57px;
 }
 .shop {
   height: 415px;
@@ -1344,6 +1347,7 @@ width: 200px;
 .footer-customerservice {
   padding-bottom: 44px;
   padding-left: 0;
+  width: auto;
 }
 .footer-miscellaneous {
   padding-bottom: 45px;
@@ -1351,8 +1355,13 @@ width: 200px;
 }
 .footer-singup {
   padding-bottom: 26px;
+  width: auto;
+}
+.footer-myaccount__menu, .footer-customerservice__menu, .footer-miscellaneous__menu, .footer-singup__text {
+  font: 19px/21px Gotham Pro, arial, helvetica, sans-serif;
 }
 .footer-myaccount__title, .footer-customerservice__title, .footer-miscellaneous__title, .footer-singup__title {
+  font: bold 20px/21px Gotham Pro, arial, helvetica, sans-serif;
   margin: 0;
   margin-bottom: 6px;
 }
@@ -1817,7 +1826,7 @@ width: 200px;
   width: 100%;
 }
 .video__text-word {
-  width: 88%;
+  margin-left: 3px;
 }
 .stories {
   margin: 0 auto;
