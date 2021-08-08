@@ -29,7 +29,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 334px;
-
 }
 .menu__item {
   font: bold 12px/11px Gotham Pro, arial, helvetica, sans-serif;
@@ -67,7 +66,6 @@ body {
 .header__left {
   display: flex;
   justify-content: space-between;
-  /*align-items: center;*/
 }
 .search {
   margin: 0;
@@ -683,6 +681,7 @@ width: 200px;
 .language {
   width: 18px;
   height: 15px;
+
   margin-top: 20px;
 }
 .shop {
@@ -1004,6 +1003,7 @@ width: 200px;
   transform: rotate(-45deg);
 }
 .product__title {
+
   margin-bottom: 24px;
   text-align: left;
   padding-left: 210px;
