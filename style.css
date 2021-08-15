@@ -1946,3 +1946,23 @@ width: 200px;
   padding-bottom: 33px;
 }
 }
+
+@media (min-width: 1299px) {
+.video {
+  max-width: 1960px;
+  height: auto;
+}
+.video-left {
+  width: 70%;
+  height: auto;
+  margin: 66px 40px 66px 33px;
+}
+.video__circle-transparent {
+  top: 42%;
+  left: 45%;
+}
+.video__circle-white {
+  top: 43%;
+  left: 45.5%;
+}
+}
